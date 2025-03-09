@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "BioRhyme", sans-serif;
+  font-size: 76px;
+  text-transform: uppercase;
+}
+
+button {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+.logo {
+  background-color: rgb(238, 178, 15);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.app {
+  text-align: center;
+}
+
+.add-form {
+  background-color: rgb(212, 134, 77);
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-form > select,
+input {
+  border-radius: 30px;
+  padding: 5px;
+  background-color: rgb(216, 215, 150);
+}
+
+.add-form > button {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.list {
+  background-color: saddlebrown;
+  height: calc(100vh - 292px);
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(216, 215, 150);
+}
+
+footer {
+  background-color: aquamarine;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
